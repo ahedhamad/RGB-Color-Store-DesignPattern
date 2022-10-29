@@ -9,6 +9,6 @@
 2. Explain your solution
 
 3. Write required code for the application
-done
+(done)
 4. Write the Main app that calls the color store showing the requirements above
-done
+(done)
