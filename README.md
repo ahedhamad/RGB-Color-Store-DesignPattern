@@ -3,7 +3,8 @@
 
 1. Draw the class diagram for your solution.
 
-![Design Pattern drawio](https://user-images.githubusercontent.com/99614732/198746444-b8f46a1a-8000-4870-88ef-2383044038fc.png)
+![Design Pattern drawio (1)](https://user-images.githubusercontent.com/99614732/198826522-fcb6160c-7684-4115-b402-0a28476489a6.png)
+
 
 2. Explain your solution
 
