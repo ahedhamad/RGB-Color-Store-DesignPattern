@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class DefaultColor extends GeneralColor{
 
-    private String name;
+    private final String name;
 //Constructor
 private DefaultColor(String name)
 {
@@ -17,15 +17,21 @@ private DefaultColor(String name)
     private static final Map<String,String> defaultColor = new HashMap<>();
 //get Instance
     public static DefaultColor getInstance(String name){
+        // Check if the Map(defaultColor) does not have a similar name of color
         if (!defaultColor.containsKey(name)){
+            // If more than one object is created at the same time
             synchronized (DefaultColor.class){
+                // Check if the Map(defaultColor) does not have a similar name of color
                 if (!defaultColor.containsKey(name))
                 {
+                    // Creates a new object and stores it in the instance
                     instance = new DefaultColor(name);
+                    // Add the object that was built in the hashmap with its name, it is given a value of null because it has no RGB
                     defaultColor.put(name,null);
                 }
             }
         }
+        //In any case, return instance
         return instance;
     }
 
@@ -33,13 +39,7 @@ private DefaultColor(String name)
         return defaultColor;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+//it prints the key (name Color) from map
     @Override
     public void printColor(Map.Entry<String, GeneralColor> entry){
         System.out.println(entry.getKey());

@@ -15,6 +15,8 @@ public class ColorCache {
   public static final GeneralColor blackColor=DefaultColor.getInstance("Black");
   public static final GeneralColor whiteColor=DefaultColor.getInstance("White");
   public final static Map<String, GeneralColor> generalColor = new HashMap<>();
+
+  //initializer block (by default)
   static {
     generalColor.put("Red", redColor);
     generalColor.put("Green", greenColor);
@@ -29,7 +31,8 @@ public class ColorCache {
         whiteColor.printColor(entry); // can use blackColor or whiteColor because they are both of the DefaultColor type so that I can reach the print() method
       } else {
        redColor.printColor(entry); // can use redColor/ blueColor/ greenColor because they are both of the RGBColor type so that I can reach the print() method
-      }
+      // OR call printColor from superClass (generalColor)
+     }
 
     }
 

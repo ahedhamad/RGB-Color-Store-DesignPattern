@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dec4df6-3a15-4bf2-a959-1869b21abbc2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6dec4df6-3a15-4bf2-a959-1869b21abbc2" name="Changes" comment="modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RGB/ColorCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RGB/ColorCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RGB/color/DefaultColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RGB/color/DefaultColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RGB/color/GeneralColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RGB/color/GeneralColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RGB/color/ListValueOfRgb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RGB/color/ListValueOfRgb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RGB/color/RgbColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RGB/color/RgbColor.java" afterDir="false" />
     </list>
@@ -36,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="RGB" />
@@ -57,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666888179478</updated>
     </task>
+    <task id="LOCAL؜-٠٠٠٠١" summary="modified">
+      <created>1667039261005</created>
+      <option name="number" value="٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠١" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1667039261005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
 </project>
