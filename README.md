@@ -8,7 +8,7 @@
 
 2. Explain your solution :
 
-•	Based on the Liskov Substitution Principle, creating a class (GeneralColor) that contains the printColor() method, and both classes (Default Color) and class (Rgb Color) are inherited from it, then simple changes to the override printColor() method.
+*Based on the Liskov Substitution Principle, creating a class (GeneralColor) that contains the printColor() method, and both classes (Default Color) and class (Rgb Color) are inherited from it, then simple changes to the override printColor() method.
 ----
 1.	listValueOfRgb class : the aim of it is to check the RGB numbers if they are valid using a function (setValidValue) then they are arranged as HashSet using a function (listOfValue) and then converted toString using a function (ConvertString) then look if they exist in the map (that was created To store listString in it) using a function (containsValue) ,
 so that an object from this class was created in the RGB Color class.
